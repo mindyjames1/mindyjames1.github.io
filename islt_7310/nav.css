@@ -1,0 +1,150 @@
+/*CSS navigation style sheet for the HTML5 elements
+***************************************************************************************************
+        Title: Mindy James Program Portfolio Navigation Style Sheet
+        Use: Navigation style sheet for site to organize program artifacts to display competencies for degree review
+        Author: Mindy James
+        School/Term: University of Missori-Columbia, Summer 2020
+        Developed: July 1, 2020
+        Tested: September 21, 2020
+****************************************************************************************************
+*/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.nav {
+    text-align: right;
+    height: 10px;
+    line-height: 10px;
+}
+.nav_menu {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav_menu ul {
+    list-style: none;
+    position: relative;
+    padding-top: 0;
+}
+
+.nav_menu a:link {
+    background-color: #98c0cd;
+}/*light grayish teal*/
+
+.nav_menu a:hover {
+    background-color: #e5e0da;
+}
+
+.nav_menu a:focus {
+    background-color: #e5e0da;
+}
+
+.nav_menu a:active {
+    background-color: #cc9999;
+}
+
+.nav_menu a:visited {
+    color: #A7405C;
+}
+
+.nav_menu a {
+    clear:right;
+}
+
+.nav_menu ul li{
+    float: left;
+    width: 16.666%;
+}
+
+.nav_menu ul ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+    padding-top: 0;
+}
+/*dropdown content*/
+
+.nav_menu ul ul li {
+    float: none;
+    margin: 0;
+}
+.nav_menu ul li a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 90%;
+    padding: 1em;
+    margin: 0 auto;
+    border-top: 2px solid #3A5B6E;
+    border-right: 1px solid #3A5B6E;
+    border-bottom: 2px solid #3A5B6E;
+    border-left: 1px solid #3A5B6E;    
+    font-weight: bold;
+    color: #333E52;
+}/*dark teal*/
+
+.nav_menu ul li:hover > ul {
+    display: block;
+}
+
+.nav_menu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+label {
+    margin: 0 20px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+    label {
+    display: block;
+    cursor: pointer;
+    }
+    
+.nav_menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.nav_menu ul li{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+    
+.nav_menu li {
+    display: block;
+    clear: both;
+    }
+    
+.nav_menu a {
+    border: 1px solid #3A5B6E;
+    margin: 0;
+    font-size: .80rem;
+    }
+
+    #toggle:checked + .nav_menu {
+    display: block;
+    clear: both;
+    }
+    
+    #mobilehide {
+    display: none;
+    }
+}

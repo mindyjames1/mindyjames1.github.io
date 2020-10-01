@@ -1,0 +1,1134 @@
+/*CSS styles for the HTML5 elements
+***************************************************************************************************
+        Title: Mindy James Program Portfolio Style Sheet
+        Use: Style sheet on site to organize program artifacts to display competencies for degree review
+        Author: Mindy James
+        School/Term: University of Missori-Columbia, Summer 2020
+        Developed: July 1, 2020
+        Tested: September 21, 2020
+****************************************************************************************************
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Bad Script;
+    src: url("Bad_Script (1)");
+}
+
+* {
+ font-family: 'Open Sans', "arial", sans-serif;
+}
+
+body {
+    background-image: url("../islt_7310/images/light_gray_gradient.png");
+    background-size: 100%;
+    max-width: 1600px;
+}
+
+.header { 
+    background-image: url("../islt_7310/images/mosaic_blue_purple_ribbon_85opacity.png");
+    height: 210px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+    
+.header h1 {
+    color: #534E52;
+    font-size: 275%;
+    font-family: 'Raleway', "arial", sans-serif;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-left: 5%;
+}/*purple taupe*/
+    
+.header p {
+    color: #534E52;
+    font-size: 125%;
+    font-family: 'Raleway', "arial", sans-serif;
+    margin: 0 auto;
+    padding-top: .75%;
+    padding-left: 5%;
+} /*purple taupe*/
+
+h3 {
+    color: #3A5B6E;
+}/*dark teal*/
+
+h3 {
+    font-size: 200%;
+    font-family: 'Raleway', "arial", sans-serif;
+}
+
+ h4 {
+    font-family: 'Raleway', "arial", sans-serif;
+    font-size: 130%;
+     color: #3A5B6E;
+}
+
+h5 {
+    font-family: 'Open Sans', "arial", sans-serif;
+    font-size: 100%;
+}
+
+h2 {
+    color: #3A5B6E;
+}
+
+#breadcrumbs {
+    font-size: 75%;
+}
+
+/***************************************** Home Page Style ****************************************/
+#container_home {
+    max-width: 90%;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+#main_home {
+    width: 70%;
+    padding-top: .5em;
+    margin: 0 auto;
+    float: right;
+}
+
+#profile_picture {
+    float: left;
+    min-height: 200px;
+    max-width: 100%;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-bottom: .5em;
+    margin-left: 2em;
+    border-radius: 5px;
+}
+
+#welcome {
+    margin-top: .5em;
+    margin-right: 1em;
+    margin-bottom: 0;
+    margin-left: 1em;
+    padding-top: 1.5em;
+}
+
+#vision {
+    clear: both;
+    padding-top: 1em;
+    margin: 0 1em;
+}
+
+caption {
+    text-align: left;
+}
+
+table {
+    width: 90%;
+    padding: 10px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: 3%;
+    border-collapse: collapse;
+}
+
+th, tr, td {
+    border: 2pt solid #3A5B6E;
+    padding: 5px;
+}
+thead {
+    text-align: left;
+    color: #e5e0da;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #3A5B6E;
+}
+
+tbody {
+    text-align: left;
+    padding: 10px;
+    font-size: 85%;
+}
+
+tbody tr:nth-child(even){
+    background-color: #B0CCCF;
+}
+            
+tbody tr:nth-child(odd){
+    background-color: #e5e0da;
+}
+
+.home_paragraph {
+    list-style: none;
+    font-size: 100%;
+    padding-bottom: 1.5em;
+    line-height: 1.5em;
+    margin: 0 2em;
+    color: #2c3840;   
+}
+
+#positions_list {
+    list-style: none;
+    padding-left: 15%;
+    font-size: 90%;
+    line-height: 1.75;
+    
+}
+
+#aside_home {
+    background-color: #e5e0da;
+    width: 20%;
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 4%;
+    margin-top: 3%;
+    vertical-align: middle;
+    float: left;
+    border: 2px solid #3A5B6E;
+    border-radius: 5px;
+    font-size: 90%;
+}
+
+#education {
+    padding-top: 2em;
+    padding-right: 1.75em;
+    font-size: 150%;
+}
+
+#certification {
+    padding-top: 1em;
+    padding-right: 1.75em;
+    font-size: 150%;
+}
+
+#skills_summary {
+    padding-top: 1em;
+    padding-right: 1.75em;
+    font-size: 150%;
+}
+
+.aside_list {
+    list-style: none;
+    font-size: 100%;
+    padding-right: 1.75em;
+    padding-bottom: 1.5em;
+    line-height: 1.25em;
+    color: #2c3840;
+}
+
+.current {
+    color: #AB0D1D;
+}/*deep red for current education and job on home page*/
+
+#skills_list {
+    list-style: circle;
+    padding-left: 1.5em;
+}
+
+blockquote {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 6%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    clear: both;
+    font-size: 120%;
+    font-family: Bad Script, cursive;
+    line-height: 1.15em;
+    color: #534E52;
+} 
+
+#counter {
+    width: 70%;
+    transform: scale(10, 10);
+    paddng: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+@media only screen and (max-width:900px){
+#container {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 0 10%;
+        margin: 0 auto;
+        font-size: 75%;
+        line-height: .75em;
+}
+    
+    #breadcrumbs {
+        display: none;
+}
+    
+    #profile_picture {
+        float: left;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+}
+    
+    #main_home {
+        width: 95%;
+        margin: 0 auto;
+    }
+        
+    .home_paragraph {
+        padding-right: 1%; 
+}  
+    
+    #welcome {
+        padding-top: 2%;
+        padding-right: 2%;
+}
+    
+     table {
+        width: 75%;
+        padding: 10px;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        border-collapse: collapse;
+        font-size: 16px;
+}
+
+    th, tr, td {
+        border: 2pt solid #3A5B6E;
+        padding: 5px;
+}
+    thead {
+        text-align: left;
+        color: #e5e0da;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        background-color: #3A5B6E;
+}
+
+    tbody {
+        text-align: left;
+        padding: 5px;
+        font-size: 85%;
+}
+  
+    #aside_home {
+       width: 95%;
+}
+      
+    blockquote {
+        width: 50%;
+        padding-right: 20%;
+}
+    footer {
+        width: auto;
+        margin: 0 auto;
+}
+    
+    #breadcrumb_attribute {
+        display: none;
+}
+} /*end media query 1181px*/
+
+@media only screen and (max-width: 640px) {
+    #container {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 0 10%;
+        margin: 0 auto;
+}
+    
+    #breadcrumbs {
+        display: none;
+}
+    
+    #profile_picture {
+        float: left;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+}
+    
+    #main_home {
+        width: 95%;
+        margin: 0 auto;
+    }
+        
+    .home_paragraph {
+        padding-right: 1%; 
+}  
+    
+    #welcome {
+        padding-top: 2%;
+        padding-right: 2%;
+}
+    
+ table {
+        width: 100%;
+        padding: 5px;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        border-collapse: collapse;
+        font-size: 14px;
+}
+
+    th, tr, td {
+        border: 2pt solid #3A5B6E;
+        padding: 5px;
+}
+    thead {
+        text-align: left;
+        color: #e5e0da;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        background-color: #3A5B6E;
+}
+
+    tbody {
+        text-align: left;
+        padding: 5px;
+        font-size: 85%;
+}
+  
+    #aside_home {
+       width: 95%;
+}
+      
+    blockquote {
+        width: 50%;
+        padding-right: 20%;
+}
+    footer {
+        width: auto;
+        margin: 0 auto;
+    }
+    
+    #breadcrumb_attribute {
+        display: none;
+    }
+} /*end media query 640px*/
+
+
+/**************************************** Resume Page Style ***************************************/
+
+#container_resume {
+    max-width: 90%;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+.resume_objective {
+    float: left;
+    width: 30%;
+    padding-top: 6%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+#objective_heading {
+    padding-top: 8%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    margin: 0 auto;
+}
+
+#resume_body {
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    margin: 0 auto;
+}
+
+#view_resume {
+    padding-top: 3%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    margin: 0 auto;    
+}
+
+.resume_video {
+    float:right;
+    width: auto;
+    padding-top: 2%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-top: 0;
+    margin-right: 3%;
+    margin-bottom: 0;
+    margin-left: auto;   
+}
+
+iframe {
+border: 0;
+}
+
+#james_video_resume {
+    min-height: auto;
+    max-width: 100%;
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 640px) {
+    #container_resume {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 0 10%;
+        margin: 0 auto;
+        font-size: 80%;
+        line-height: 1.2em;
+}
+    
+    .resume_objective {
+        float: left;
+        width: 100%;
+        max-width: 300px;
+        padding: 1% 5%;
+        margin: 0 auto;
+}
+    
+    #objective_heading {
+        padding-top: 0;
+        padding-right: 1%;
+        padding-bottom: 1%;
+        padding-left: 1%;
+        margin: 0 auto;
+}
+
+    .resume_video {
+        float: left;
+        width: 100%;
+        max-width: 300px;
+        padding: 1% 5%;
+        margin: 0 auto;
+}   
+  
+    #james_video_resume {
+        width: auto;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    footer {
+        clear: both;
+        width: auto;
+        margin: 0 auto;
+    }
+} /*end media query*/
+
+/**************************************** Background Page Style ***************************************/
+
+#container_background {
+    max-width: 100%;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+#container_background_main {
+    float: left;
+    width: 60%;
+    padding-top: 4%;
+    padding-right: 1%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+    margin: 0 auto;
+}
+
+#aside_background_strengths {
+    float: right;
+    width: 30%;
+    background-color: #e5e0da;
+    padding-top: 3%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    vertical-align: middle;
+    border: 2px solid #3A5B6E;
+    border-radius: 5px;
+    font-size: 90%;
+}
+
+#background {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    margin: 0 auto;
+}
+
+#container_arrows_image {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    margin: 0 auto;
+}
+
+#background_arrows {
+    min-height: 200px;
+    max-width: 100%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+#container_background_text {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin: 0 auto; 
+}
+
+.background_paragraphs {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin: 0 auto;
+}
+
+#strengths_heading {
+    font-size: 1.5em;
+    padding-bottom: .5em;
+}
+#background_strengths {
+    list-style: circle;
+    font-size: 100%;
+    padding-top: .5em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    line-height: 1.25em;
+    color: #2c3840;
+} 
+
+#background_strengths li {
+    padding-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 640px) {
+    #container_background {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 0 10%;
+        margin: 0 auto;
+        font-size: 80%;
+        line-height: 1.25em;
+}
+    
+    #container_background_main {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    #container_arrows_image {
+        float: left;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}
+    #year_arrows {
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    #container_background_text {
+        clear: both;
+        width: 95%;
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+        
+    .background_paragraphs {
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}  
+    
+    #background {
+        padding-top: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+}
+  
+    #aside_background_strengths {
+        float: left;
+        width: 75%;
+        padding-top: 3%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 2%;
+        margin-left: auto;
+}
+    #strengths_heading {
+        margin: 0 auto;
+    }
+    
+    #background_strengths {
+        font-size: 1.05em;
+        margin: 0 auto;
+    }
+    
+    footer {
+        width: auto;
+        margin: 0 auto;
+}
+} /*end media query*/
+
+/**************************************** Projects Page Style ***************************************/
+
+#container_projects {
+    max-width: 90%;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+.project_sections {
+    background-color: #e5e0da;
+    width: 90%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+    float: left;
+    border: 2px solid #3A5B6E;
+    border-radius: 5px;
+    font-size: 90%;
+}
+
+#competency_three {
+    margin-bottom: 3%;
+}
+
+.project_paragraphs {
+    margin-bottom: 1%;
+}
+
+
+@media only screen and (max-width: 640px) {
+    
+    #container_projects {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 1%;
+        margin: 0 auto;
+        font-size: 85%;
+        line-height: 1.3em;
+}
+    
+    
+}
+/************************************** Reflection Page Style *************************************/
+
+#container_reflection {
+    max-width: 90%;
+    padding: 0 2em;
+    margin: 0 auto;
+}
+
+#reflection_heading {
+    padding-top: 6%;
+    padding-left: 2%;
+    margin: 0 auto;
+}
+
+#container_reflection_image {
+    float: left;
+    min-height: 80px;
+    max-width: 100%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+
+#reflection_image {
+    filter: sepia(60%);
+}
+
+#container_experience {
+    float: right;
+    width: 65%;
+    padding-top: 3%;
+    padding-right: 1%;
+    padding-left: 0;
+    
+}
+
+#experience_heading {
+    padding-top: 1.5%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin: 0 auto;
+}
+
+#experience_paragraph {
+    display: block;
+    padding-top: 0;
+    padding-right: 2%;
+    padding-bottom: 0;
+    padding-left: 1%;
+    margin: 0 auto;
+}
+
+#container_expectations {
+    clear: both;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+#expectations_heading {
+    clear: both;
+    padding-top: 1.5%;
+    padding-right: 2%;
+    padding-bottom: .5%;
+    padding-left: 2%;
+    margin: 0 auto;
+}
+
+#expectations_paragraph {
+    display: block;
+    padding-top: 0;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 640px) {
+    #container_reflection {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 1%;
+        margin: 0 auto;
+        font-size: 85%;
+        line-height: 1.2em;
+}
+
+    #reflection_heading {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        margin: 0 auto;
+}
+    
+    #container_reflection_image {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        margin: 0 auto;        
+}
+    
+    #reflection_image {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+}
+    
+    #container_experience {
+        width: 95%;
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        margin: 0 auto;
+}
+    
+    #experience_heading {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}
+        
+    #experience_paragraph {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}  
+    
+    #container_expectations {
+        width: 95%;
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 2%;
+        margin: 0 auto;
+}
+        
+    #expectations_heading {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}
+        
+    #expectations_paragraph {
+        padding-top: 0;
+        padding-right: 2%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        margin: 0 auto;
+}  
+      
+    footer {
+        width: auto;
+        margin: 0 auto;
+}
+} /*end media query*/
+
+
+
+
+/******************************************** Contact Style ****************************************/
+#container_contact {
+    max-width: 90%;
+    padding: 0 1em;
+    margin: 0 auto;   
+}
+
+.contact_visual {
+    float: left;
+    width: 45%;
+    padding-top:4.05em;
+    padding-right: .25em;
+    padding-bottom: 1.5em;
+    padding-left: .75em;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+
+#at_sign_photo {
+    min-height: 150px;
+    max-width: 100%;
+    padding-top: 2em;
+}
+
+.container_contact_form {
+    float:right;
+    width: 45%;
+    padding-top: 2em;
+    padding-right: 0.75em;
+    padding-bottom: 1.5em;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;   
+}
+
+#contact_form_instructions {
+    color: #3A5B6E;
+    padding-bottom: 3%;
+}
+
+.form_labels {
+    width: auto;
+    float:left;
+    display: inline-block;
+    padding: 3px 0;
+    margin: 0 auto;
+    font-family: 'Raleway', "arial", sans-serif;
+    font-size: 1em;
+    color: #3A5B6E;
+    line-height: 1.5em;
+}
+
+#firstname, #lastname, #email, #message {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 1px auto;
+    display: inline-block;
+    border: 1px solid #898382;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;    
+    background-color: #3A5B6E;
+    color: #e5e0da;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #54829D;
+}
+
+@media only screen and (max-width: 640px) {
+    #container_contact {
+        clear: both;
+        display: block;
+        width: 100%;
+        padding: 0;
+        padding-right: 1%;
+        margin: 0 auto;
+        font-size: 75%;
+        line-height: .75em;
+}
+    
+    #at_sign_photo {
+        float: left;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+}
+    
+    .contact_visual {
+        clear: both;
+        width: 95%;
+        margin: 0 auto;
+}
+    
+    #contact_form_instructions {
+        line-height: 1.5em;
+}
+
+    .container_contact_form {
+        clear: both;
+        width: 95%;
+        margin: 0 auto;
+}
+  
+    input[type=submit] {
+        padding-top: 2%;
+        padding-right: 2%;
+}   
+    
+    footer {
+        clear: both;
+        width: auto;
+        margin: 0 auto;
+    }
+} /*end media query*/
+
+
+/******************************************** Footer Style ****************************************/
+footer {
+    clear: both;
+}
+
+footer {
+    border-top: 2px solid #333333;
+    padding: 1em;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: auto;
+    background-image: url(../islt_7310/images/mosaic_blue_purple_ribbon_85opacity.png);
+    background-size: cover;
+    text-align: center;
+} /*dark gray*/
+
+footer {
+    font-size: 70%;
+}
+
+footer a:link {
+    color: #000099;
+} /*dark blue*/
+
+footer a:hover {
+    color: #cc99cc;
+} /*light purple*/
+
+footer a:focus {
+    color: #cc0000;
+} /*dark red*/
+
+footer a:visited {
+    color: #cc00cc;
+} /*bright purple*/
+
+footer a:active {
+    color: #cc0000;
+} /*dark red*/
+
+footer a {
+    text-decoration: none; 
+    font-family: "arial", "calibri", sans-serif;
+    }
+
+footer img{
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 12px;
+    line-height: 16px;
+    transition: transform .2s;
+}
+
+footer img:hover{
+    transform: scale(1.5);
+    padding-right: 10px;
+}
+
+
+
+

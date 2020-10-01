@@ -1,0 +1,84 @@
+/*CSS styles for the HTML5 elements
+**************************************************************************************************
+        Title: Mindy James Program Portfolio Style Sheet
+        Use: Style sheet on site to organize program artifacts to display competencies for degree review
+        Author: Mindy James
+        School/Term: University of Missori-Columbia, Summer 2020
+        Developed: September 20, 2020
+        Tested: September 21, 2020
+**************************************************************************************************
+*/
+
+/*Print Stylesheet*/
+
+@media print {
+    *{
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    }
+    
+    .nav {
+        display: none;
+    }
+        
+    .header {
+        background-image: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-align: center;
+    }
+    
+    #main_home {
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    #profile_picture {
+        margin-top: 0;
+        padding-top: 0;
+        filter: grayscale(100%);
+    }
+    
+    #welcome {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #aside_home {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    @page {
+        margin-top: .75cm;
+        margin-right: .5cm;
+        margin-bottom: .75cm;
+        margin-left: .5cm;
+    }
+    
+    h3 {
+        page-break-after: avoid;
+    }
+    
+    p, ul li {
+        font-family: 'Roboto Slab', serif;
+        font-size: 11pt;
+        orphans: 3;
+        widows: 3;
+    }
+    
+    #email_icon {
+        display: none;
+    }
+    
+    #phone_icon {
+        display: none;
+    }
+    
+    #footer_attribute {
+        display: none;
+    }
+}
