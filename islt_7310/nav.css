@@ -35,11 +35,11 @@ html, body {
 }/*light grayish teal*/
 
 .nav_menu a:hover {
-    background-color: #e5e0da;
+    background-color: #fffff0;
 }
 
 .nav_menu a:focus {
-    background-color: #e5e0da;
+    background-color: #fffff0;
 }
 
 .nav_menu a:active {
@@ -47,7 +47,7 @@ html, body {
 }
 
 .nav_menu a:visited {
-    color: #A7405C;
+    color: #2a3439;
 }
 
 .nav_menu a {
